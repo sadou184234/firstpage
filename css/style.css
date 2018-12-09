@@ -507,19 +507,34 @@ a
 .songlist .row .selectsonglist-title
 {
     display: block;
-    width: 120px;
+    width: 100%;
     height: 30px;
     color: #555;
     font-size: 30px;
     line-height: 50px;
-	margin-right: 25px;
+	/*margin-right: 25px;*/
 	margin-bottom: 30px;
+	margin-top: 20px;
+	padding-right: 20px;
 }
 .songlist .row .selectsonglist-title span
 {
 	display: inline-block;
 	white-space: nowrap;
 	color: #169AF3;
+}
+
+.songlist .row .selectsonglist-title .more
+{
+	display: inline-block;
+	color: #888;
+	font-size: 14px;
+	float: right;
+}
+.songlist .row .selectsonglist-title .more:hover
+{
+	color: #555;
+	cursor: pointer;
 }
 
 .image-4
@@ -558,19 +573,33 @@ a
 .songlist .row .hotsonglist-title
 {
 	display: block;
-    width: 120px;
+    width: 100%;
     height: 30px;
     color: #555;
     font-size: 30px;
     line-height: 50px;
 	margin-right: 25px;
 	margin-bottom: 30px;
+	margin-top: 20px;
 }
 .songlist .row .hotsonglist-title span
 {
 	display: inline-block;
 	white-space: nowrap;
 	color: #169AF3;
+}
+
+.songlist .row .hotsonglist-title .more
+{
+	display: inline-block;
+	color: #888;
+	font-size: 14px;
+	float: right;
+}
+.songlist .row .hotsonglist-title .more:hover
+{
+	color: #555;
+	cursor: pointer;
 }
 
 .songlist .row .rightlist .list-row
@@ -688,19 +717,34 @@ a
 .songlist .row .newsonglist-title
 {
     display: block;
-    width: 120px;
+    width: 100%;
     height: 30px;
     color: #555;
     font-size: 30px;
     line-height: 50px;
 	margin-right: 25px;
 	margin-bottom: 30px;
+	margin-top: 20px;
+	padding-right: 40px;
 }
 .songlist .row .newsonglist-title span
 {
 	display: inline-block;
 	white-space: nowrap;
 	color: #169AF3;
+}
+
+.songlist .row .newsonglist-title .more
+{
+	display: inline-block;
+	color: #888;
+	font-size: 14px;
+	float: right;
+}
+.songlist .row .newsonglist-title .more:hover
+{
+	color: #555;
+	cursor: pointer;
 }
 
 .songlist .newsonglist .list-row
@@ -796,19 +840,33 @@ a
 .songlist .row .mvlist-title
 {
 	display: block;
-    width: 120px;
+    width: 100%;
     height: 30px;
     color: #555;
     font-size: 30px;
     line-height: 50px;
 	margin-right: 25px;
 	margin-bottom: 30px;
+	margin-top: 20px;
 }
 .songlist .row .mvlist-title span
 {
 	display: inline-block;
 	white-space: nowrap;
 	color: #169AF3;
+}
+
+.songlist .row .mvlist-title .more
+{
+	display: inline-block;
+	color: #888;
+	font-size: 14px;
+	float: right;
+}
+.songlist .row .mvlist-title .more:hover
+{
+	color: #555;
+	cursor: pointer;
 }
 
 .image-1
@@ -864,19 +922,33 @@ a
 .songlist .row .radiolist-title
 {
     display: block;
-    width: 120px;
+    width: 100%;
     height: 30px;
     color: #555;
     font-size: 30px;
     line-height: 50px;
 	margin-right: 25px;
 	margin-bottom: 30px;
+	padding-right: 25px;
 }
 .songlist .row .radiolist-title span
 {
 	display: inline-block;
 	white-space: nowrap;
 	color: #169AF3;
+}
+
+.songlist .row .radiolist-title .more
+{
+	display: inline-block;
+	color: #888;
+	font-size: 14px;
+	float: right;
+}
+.songlist .row .radiolist-title .more:hover
+{
+	color: #555;
+	cursor: pointer;
 }
 
 .image-5
@@ -922,7 +994,7 @@ a
 .songlist .row .singerlist-title
 {
 	display: block;
-    width: 120px;
+    width: 100%;
     height: 30px;
     color: #555;
     font-size: 30px;
@@ -935,6 +1007,19 @@ a
 	display: inline-block;
 	white-space: nowrap;
 	color: #169AF3;
+}
+
+.songlist .row .singerlist-title .more
+{
+	display: inline-block;
+	color: #888;
+	font-size: 14px;
+	float: right;
+}
+.songlist .row .singerlist-title .more:hover
+{
+	color: #555;
+	cursor: pointer;
 }
 
 .image-2
